@@ -12,7 +12,7 @@ const Dashboard = ({ user }) => {
                         <div className="flex">
                             <div className="w-full">
                                 <h3 className="text-xl text-gray-800 mt-2">
-                                    Merhaba, {user.name}!
+                                    Merhaba, {user?.name}!
                                 </h3>
                                 <p className="mt-1 font-medium mb-4">
                                     Techrazzi Event Dashboard
